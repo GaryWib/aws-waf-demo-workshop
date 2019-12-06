@@ -13,7 +13,7 @@ aws cloudformation delete-stack --stack-name CloudToolsMeetup-DEC19-WAF
 aws cloudformation delete-stack --stack-name CloudToolsMeetup-DEC19-API
 ```
 
-2. Delete S3 Branch
+2. Delete S3 Bucket
 
 ```
 aws s3 rb s3://${BUCKET_NAME} --force
